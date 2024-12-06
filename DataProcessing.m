@@ -4,9 +4,9 @@ Test21 = csvread('Test2Run1.csv');
 Test31 = csvread('Test3Run1.csv');
 
 %% Transforming Data
-##Test1PP(:,6)=Test11(:,1).*Test11(:,5).*10^(-3);
-##Test2PP(:,6)=Test21(:,1).*Test21(:,5).*10^(-3);
-##Test3PP(:,6)=Test31(:,1).*Test31(:,5).*10^(-3);
+%##Test1PP(:,6)=Test11(:,1).*Test11(:,5).*10^(-3);
+%##Test2PP(:,6)=Test21(:,1).*Test21(:,5).*10^(-3);
+%##Test3PP(:,6)=Test31(:,1).*Test31(:,5).*10^(-3);
 
 %% Ploting Data
 X1 = -2584:1:6880-2584-1;
